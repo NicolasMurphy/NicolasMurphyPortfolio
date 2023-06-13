@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import Footer from "./Footer";
 import Nav from "./Nav";
@@ -50,7 +50,12 @@ function App() {
       mainDiv.setAttribute("data-theme", "corporate");
     }
   };
+
+  const domain = /https:\/\/[^/]+/;
+  const basename = process.env.PUBLIC_URL.replace(domain, '');
+
   return (
+<BrowserRouter basename={basename}>
 <>
   <div id="main-div" data-theme="business">
     <div className="mx-auto min-w-screen min-h-screen">
@@ -83,6 +88,7 @@ function App() {
     <Footer />
   </div>
 </>
+</BrowserRouter>
   );
 };
 
