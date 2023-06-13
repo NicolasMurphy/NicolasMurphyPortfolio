@@ -52,11 +52,12 @@ function App() {
     }
   };
 
-  const domain = /https:\/\/[^/]+/;
-  const basename = process.env.PUBLIC_URL.replace(domain, '');
-
+  // const domain = /https:\/\/[^/]+/;
+  // const basename = process.env.PUBLIC_URL.replace(domain, '');
+  {/* <HashRouter basename={basename}> */}
   return (
-<HashRouter basename={basename}>
+
+<HashRouter basename={process.env.PUBLIC_URL}>
 <>
   <div id="main-div" data-theme="business">
     <div className="mx-auto min-w-screen min-h-screen">

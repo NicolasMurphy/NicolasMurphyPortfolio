@@ -14,12 +14,13 @@ const HomePage = () => {
           <div className="md:my-[2.5%] flex flex-col items-center md:flex-row md:max-fit">
             <img className="fade-in-3 md:mb-[0%] mb-[8%] rounded-full object-cover h-64 md:h-auto md:w-48" src={headshot} alt="" id="firefox-image-rotation"/>
             <div className="flex flex-col justify-between leading-normal">
-              <p className="fade-in-4 md:text-xl text-lg md:text-left text-center mx-[3%] md:mr-[33%] md:my-[2.5%] my-[5%] font-normal text-gray-700 dark:text-gray-400">
-              I am passionate about creating reliable,
-            maintainable, scalable applications, with aesthetic
-            interfaces, that are easy to use and understand.
-            The agile philosophy is something I strongly believe,
-            for creating solutions that serve both the client and the user.
+              <p className="fade-in-4 md:text-xl text-lg md:text-left text-center mx-[3%] md:mr-[30%] md:my-[2.5%] my-[5%] font-normal text-gray-700 dark:text-gray-400">
+              I am a passionate software engineer that believes in creating reliable,
+              maintainable, scalable applications, with aesthetic interfaces,
+              that are easy to use and understand. I embrace the agile philosophy
+              for creating solutions that serve both the client and the user.
+              Delivering innovative software solutions and enhanced productivity
+              are my priorities. I look forward to creating a positive impact on the tech space.
               </p>
             </div>
           </div>

@@ -25,7 +25,7 @@ const Skills = () => {
     "src": MongoDB},
     {"name": "Docker",
     "src": Docker},
-    {"name": "Postgresql",
+    {"name": "PostgreSQL",
     "src": Postgresql},
     {"name": "HTML5",
     "src": HTML5},
