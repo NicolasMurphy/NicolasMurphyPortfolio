@@ -79,7 +79,7 @@ function App() {
       </div>
 
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route index element={<HomePage />} />
         <Route path="contact/" element={<Contact />} />
         <Route path="projects/" element={<Projects />} />
       </Routes>
