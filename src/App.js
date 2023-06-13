@@ -7,6 +7,7 @@ import Contact from "./Contact"
 import { useEffect, useState } from "react";
 import dark_mode_icon from "./Images/dark-mode-icon-blue.png";
 import light_mode_icon from "./Images/light-mode-icon-orange.png";
+import NotFound from "./NotFound";
 
 
 function App() {
@@ -82,6 +83,7 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="contact/" element={<Contact />} />
         <Route path="projects/" element={<Projects />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
     </div>
