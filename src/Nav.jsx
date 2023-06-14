@@ -15,7 +15,7 @@ const Nav = () => {
         <li><NavLink to={"/aboutme/"}>About Me</NavLink></li>
         <li><NavLink to={"/projects/"}>Projects</NavLink></li>
         <li><a
-          href="https://drive.google.com/file/d/1UijZyfWN2B0fjBLUJQeXy3j3wZCnSvRP/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1qBGJaMuKW4vMHDBUgt9Lq5YbRzzA8Kl_/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >Resume
@@ -29,7 +29,7 @@ const Nav = () => {
         <li><NavLink to={"/aboutme/"}>About Me</NavLink></li>
         <li><NavLink to={"/projects/"}>Projects</NavLink></li>
         <li><a
-          href="https://drive.google.com/file/d/1UijZyfWN2B0fjBLUJQeXy3j3wZCnSvRP/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1qBGJaMuKW4vMHDBUgt9Lq5YbRzzA8Kl_/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >Resume
