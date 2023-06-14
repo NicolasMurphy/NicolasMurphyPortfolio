@@ -3,7 +3,7 @@ import HomePage from "./HomePage";
 import Footer from "./Footer";
 import Nav from "./Nav";
 import Projects from "./Projects"
-import Contact from "./Contact"
+import AboutMe from "./AboutMe"
 import { useEffect, useState } from "react";
 import dark_mode_icon from "./Images/dark-mode-icon-blue.png";
 import light_mode_icon from "./Images/light-mode-icon-orange.png";
@@ -52,11 +52,7 @@ function App() {
     }
   };
 
-  // const domain = /https:\/\/[^/]+/;
-  // const basename = process.env.PUBLIC_URL.replace(domain, '');
-  {/* <HashRouter basename={basename}> */}
   return (
-
 <HashRouter basename={process.env.PUBLIC_URL}>
 <>
   <div id="main-div" data-theme="business">
@@ -82,7 +78,7 @@ function App() {
 
       <Routes>
         <Route index element={<HomePage />} />
-        <Route path="contact/" element={<Contact />} />
+        <Route path="aboutme/" element={<AboutMe />} />
         <Route path="projects/" element={<Projects />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

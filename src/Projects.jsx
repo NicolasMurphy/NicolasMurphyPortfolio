@@ -8,7 +8,7 @@ const Projects = () => {
     <>
       <div className="text-center">
         <div className="text-center w-full md:mt-[5%] mt-[10%]">
-          <h1 className="fade-in text-5xl md:text-6xl font-bold">BookBounty</h1>
+          <h1 className="fade-in text-5xl md:text-7xl font-bold">BookBounty</h1>
           <p className="fade-in-2 text-md md:text-2xl md:my-[3%] my-[8%] md:mx-[27%] mx-[4.5%]">
             A microservice application developed by a four person team, for keeping track of
             and sharing your favorite books! Features ability to sign up, login, search books
@@ -35,7 +35,7 @@ const Projects = () => {
 
       <div className="text-center md:mt-[15%] mt-[30%]">
         <div className="text-center w-full md:mt-[5%] mt-[10%]">
-          <h1 className="fade-in-6 text-5xl md:text-6xl font-bold">
+          <h1 className="fade-in-6 text-5xl md:text-7xl font-bold">
             CarCar
           </h1>
           <p className="fade-in-7 text-md md:text-2xl md:my-[3%] my-[8%] md:mx-[27%] mx-[5%]">
