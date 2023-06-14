@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .txt {
-    @apply text-gray-700 dark:text-gray-300;
-  }
-}
-
 .slick-prev:before,
 .slick-next:before {
   color: #6B6B6B!important;
