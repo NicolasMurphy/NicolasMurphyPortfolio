@@ -20,7 +20,7 @@ const Projects = () => {
           <p className="font-bold fade-in-3 text-md md:text-2xl md:mb-[2%] mb-[6%] md:mx-[30%] mx-[5%]">
             FastAPI | MongoDB | React | Redux | TailwindCSS | DaisyUI | Docker
           </p>
-          <div className="fade-in-4 grid grid-flow-col gap-4 mx-[45%] md:mb-[2%] mb-[7%]">
+          <div className="fade-in-4 grid grid-flow-col gap-4 mx-[30%] md:mx-[45%] md:mb-[2%] mb-[7%]">
             <a
               href="https://mod-3-group.gitlab.io/bookbounty"
               target="_blank"
@@ -60,7 +60,7 @@ const Projects = () => {
           <p className="font-bold fade-in-8 text-md md:text-2xl md:mb-[2%] mb-[6%] md:mx-[30%] mx-[5%]">
             Django | React | Bootstrap | TailwindCSS | DaisyUI | Docker
           </p>
-          <div className="fade-in-9 mx-auto md:w-[5%] w-[10%] md:mb-[2%] mb-[7%]">
+          <div className="fade-in-9 mx-auto md:w-[5%] w-[18%] md:mb-[2%] mb-[7%]">
             <a
               href="https://gitlab.com/murphynick10/car-car"
               target="_blank"

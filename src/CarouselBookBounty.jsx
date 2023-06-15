@@ -1,9 +1,9 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BookBountyHomepageLight from "./Images/BookBountyImages/BookBountyHomepageLight.png";
+import BookBountyHomepageLight from "./Images/BookBountyImages/BookBountyHomeLight2.png";
 import BookBountySignup from "./Images/BookBountyImages/BookBountySignup.png";
-import BookBountyLogin from "./Images/BookBountyImages/BookBountyLogin.png";
+import BookBountyDiscover from "./Images/BookBountyImages/BookBountyDiscover.png";
 
 
 export default function CarouselBookBounty() {
@@ -11,7 +11,7 @@ export default function CarouselBookBounty() {
   let images = [
     BookBountyHomepageLight,
     BookBountySignup,
-    BookBountyLogin,
+    BookBountyDiscover,
 ];
 
   const settings = {
