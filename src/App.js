@@ -1,9 +1,10 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 import HomePage from "./HomePage";
 import Footer from "./Footer";
 import Nav from "./Nav";
-import Projects from "./Projects";
+import Projects from "./Projects/Projects";
+import RandomSpotifyTrack from "./RandomSpotifyTrack/SpotifySearch";
 import AboutMe from "./AboutMe";
 import dark_mode_icon from "./Images/dark-mode-icon-blue.png";
 import light_mode_icon from "./Images/light-mode-icon-orange.png";
@@ -45,6 +46,15 @@ function App() {
             <div className="navbar">
               <Nav />
               <div className="navbar-end">
+                <div className="hidden lg:flex">
+                  <ul className="menu menu-horizontal px-4">
+                    <li>
+                      <NavLink to={"/random-spotify-track/"}>
+                        Random Spotify Track!
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
                 <button
                   onClick={handleThemeSwitch}
                   id="theme-toggle"
@@ -65,6 +75,10 @@ function App() {
               <Route index element={<HomePage />} />
               <Route path="aboutme/" element={<AboutMe />} />
               <Route path="projects/" element={<Projects />} />
+              <Route
+                path="random-spotify-track/"
+                element={<RandomSpotifyTrack />}
+              />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>

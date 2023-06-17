@@ -1,9 +1,9 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BookBountyMobileHome from "./Images/BookBountyImages/BookBountyMobileHome.png";
-import BookBountyMobileSearch from "./Images/BookBountyImages/BookBountyMobileSearch.png";
-import BookBountyMobileUsers from "./Images/BookBountyImages/BookBountyMobileUsers.png";
+import BookBountyMobileHome from "../Images/BookBountyImages/BookBountyMobileHome.png";
+import BookBountyMobileSearch from "../Images/BookBountyImages/BookBountyMobileSearch.png";
+import BookBountyMobileUsers from "../Images/BookBountyImages/BookBountyMobileUsers.png";
 
 
 export default function CarouselBookBountyMobile() {

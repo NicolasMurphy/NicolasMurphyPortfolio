@@ -1,16 +1,17 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import CarCarNotFullscreen from "./Images/CarCarImages/CarCarNotFullscreen.png";
-import CarCarModels from "./Images/CarCarImages/CarCarModels.png";
-import CarCarAppointments from "./Images/CarCarImages/CarCarAppointments.png";
+import BookBountyHomepageLight from "../Images/BookBountyImages/BookBountyHomeLight2.png";
+import BookBountySignup from "../Images/BookBountyImages/BookBountySignup.png";
+import BookBountyDiscover from "../Images/BookBountyImages/BookBountyDiscover.png";
 
-export default function CarouselCarCar() {
+
+export default function CarouselBookBounty() {
 
   let images = [
-    CarCarNotFullscreen,
-    CarCarModels,
-    CarCarAppointments,
+    BookBountyHomepageLight,
+    BookBountySignup,
+    BookBountyDiscover,
 ];
 
   const settings = {
@@ -27,7 +28,7 @@ export default function CarouselCarCar() {
 
   return (
     <>
-      <div className="fade-in-11 mx-auto mb-[25%] md:mb-[10%] mx-auto px-[5%] md:w-[80%]">
+      <div className="fade-in-5 mx-auto px-[5%] md:w-[80%]">
         <Slider {...settings}>
           {images?.map((image) => (
             <div key={image}>

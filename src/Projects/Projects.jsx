@@ -1,8 +1,9 @@
 import CarouselCarCar from "./CarouselCarCar";
 import CarouselBookBounty from "./CarouselBookBounty";
-import GitLab from "./Images/gitlab-svgrepo-com.png";
-import BookBountyIcon from "./Images/Marcus-Roberto-Google-Play-Google-Play-Books.512.png";
+import GitLab from "../Images/gitlab-svgrepo-com.png";
+import BookBountyIcon from "../Images/Marcus-Roberto-Google-Play-Google-Play-Books.512.png";
 import CarouselBookBountyMobile from "./CarouselBookBountyMobile";
+
 
 const Projects = () => {
   return (
