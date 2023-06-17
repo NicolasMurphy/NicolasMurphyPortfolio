@@ -32,11 +32,6 @@ const Nav = () => {
               <NavLink to={"/projects/"}>Projects</NavLink>
             </li>
             <li>
-              <NavLink to={"/random-spotify-track/"}>
-                Random Spotify Track!
-              </NavLink>
-            </li>
-            <li>
               <a
                 href="https://drive.google.com/file/d/1bkTv3k43HK7X3OuWr4cdJK-A-FNKjVfj/view?usp=sharing"
                 target="_blank"
@@ -44,6 +39,11 @@ const Nav = () => {
               >
                 Resume
               </a>
+            </li>
+            <li>
+              <NavLink to={"/random-spotify-track/"}>
+                Random Spotify Track!
+              </NavLink>
             </li>
           </ul>
         </div>
