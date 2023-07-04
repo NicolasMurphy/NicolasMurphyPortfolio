@@ -33,7 +33,7 @@ const Nav = () => {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/17cQnR1viq0p7poc2pH6lzaN5cmf_LVAV/view?usp=sharing"
+                href="https://drive.google.com/file/d/1n7Jgp1R4Qyr1z4FBRx-oR5zmrcpc6UBF/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -61,7 +61,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/17cQnR1viq0p7poc2pH6lzaN5cmf_LVAV/view?usp=sharing"
+              href="https://drive.google.com/file/d/1n7Jgp1R4Qyr1z4FBRx-oR5zmrcpc6UBF/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
