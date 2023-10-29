@@ -33,7 +33,7 @@ const Nav = () => {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1UAnOQ_P_MooUr0nDsHJ0XzxWbq9z_5SH/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ZxWhN9BfIWc36RRHPodHHZz9i6WIvc-7/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >

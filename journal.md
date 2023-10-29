@@ -1,3 +1,10 @@
+# 10/29/23
+    Goals:
+        - add songseeker photos, links
+    Notes:
+        - updated resume link
+
+
 # 10/24/23
     Goals:
         - Add alt descriptions for all img tags
