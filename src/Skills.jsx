@@ -54,7 +54,7 @@ const Skills = () => {
                 key={skill.name}
                 className="bg-base-100 text-base-content border border-gray-300 dark:border-gray-700 rounded-full
                 shadow p-4 text-center text-lg">
-                <img className="mx-auto" width="60" src={skill.src}>
+                <img className="mx-auto" width="60" src={skill.src} alt="">
                 </img>
                 {skill.name}
               </div>

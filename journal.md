@@ -1,3 +1,10 @@
+# 10/30/23
+    Goals:
+        -
+    Notes:
+        - used smaller headshot photo
+        -
+
 # 10/29/23
     Goals:
         - add songseeker photos, links
