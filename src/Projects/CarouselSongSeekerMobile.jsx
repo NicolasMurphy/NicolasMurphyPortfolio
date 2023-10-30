@@ -1,17 +1,17 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BookBountyMobileHome from "../Images/BookBountyImages/BookBountyMobileHome.png";
-import BookBountyMobileSearch from "../Images/BookBountyImages/BookBountyMobileSearch.png";
-import BookBountyMobileUsers from "../Images/BookBountyImages/BookBountyMobileUsers.png";
+import songseekermobilescreenshot1 from "../Images/SongSeekerImages/songseekermobilescreenshot1.png";
+import songseekermobilescreenshot2 from "../Images/SongSeekerImages/songseekermobilescreenshot2.png";
+import songseekermobilescreenshot3 from "../Images/SongSeekerImages/songseekermobilescreenshot3.png";
 
 
 export default function CarouselBookBountyMobile() {
 
   let images = [
-    BookBountyMobileHome,
-    BookBountyMobileSearch,
-    BookBountyMobileUsers,
+    songseekermobilescreenshot1,
+    songseekermobilescreenshot2,
+    songseekermobilescreenshot3,
 ];
 
   const settings = {
@@ -28,11 +28,11 @@ export default function CarouselBookBountyMobile() {
 
   return (
     <>
-      <div className="fade-in-12 my-[20%] md:my-[5%] mx-auto px-[5%] md:w-[80%]">
+      <div className="fade-in-6 my-[20%] md:my-[5%] mx-auto px-[5%] md:w-[80%]">
         <Slider {...settings}>
           {images?.map((image) => (
             <div key={image}>
-              <img className="mx-auto" width="400" src={image} alt="Screenshots of the BookBounty mobile website" />
+              <img className="mx-auto" width="400" src={image} alt="Screenshots of the SongSeeker mobile website" />
             </div>
           ))}
         </Slider>

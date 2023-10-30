@@ -12,7 +12,7 @@ const AboutMe = () => {
             className="fade-in-2 md:mb-[0%] mb-[8%] rounded-full object-cover h-64 md:h-auto
             md:w-48"
             src={MeGuitar}
-            alt=""
+            alt="Nicolas Murphy playing guitar"
             id="firefox-image-rotation"
           />
           <div className="flex flex-col justify-between">

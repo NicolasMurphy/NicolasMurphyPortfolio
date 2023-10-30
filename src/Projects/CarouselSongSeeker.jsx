@@ -1,17 +1,17 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BookBountyHomepageLight from "../Images/BookBountyImages/BookBountyHomeLight2.png";
-import BookBountySignup from "../Images/BookBountyImages/BookBountySignup.png";
-import BookBountyDiscover from "../Images/BookBountyImages/BookBountyDiscover.png";
+import songseekerscreenshot1 from "../Images/SongSeekerImages/songseekerscreenshot1.png";
+import songseekerscreenshot2 from "../Images/SongSeekerImages/songseekerscreenshot2.png";
+import songseekerscreenshot3 from "../Images/SongSeekerImages/songseekerscreenshot3.png";
 
 
 export default function CarouselBookBounty() {
 
   let images = [
-    BookBountyHomepageLight,
-    BookBountySignup,
-    BookBountyDiscover,
+    songseekerscreenshot1,
+    songseekerscreenshot2,
+    songseekerscreenshot3,
 ];
 
   const settings = {
@@ -28,11 +28,11 @@ export default function CarouselBookBounty() {
 
   return (
     <>
-      <div className="fade-in-11 mx-auto px-[5%] md:w-[80%]">
+      <div className="fade-in-5 mx-auto px-[5%] md:w-[80%]">
         <Slider {...settings}>
           {images?.map((image) => (
             <div key={image}>
-              <img className="mx-auto" src={image} alt="Screenshots of the BookBounty website" />
+              <img className="mx-auto" src={image} alt="Screenshots of the SongSeeker website" />
             </div>
           ))}
         </Slider>

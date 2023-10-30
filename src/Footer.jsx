@@ -13,7 +13,7 @@ const Footer = () => {
           rel="noreferrer"
       >
         <img className="transition duration-300 ease-in-out hover:scale-110"
-        width="40" src={GitLab}></img>
+        width="40" src={GitLab} alt="Gitlab Icon"></img>
       </a>
       <a
           href="https://github.com/NicolasMurphy"
@@ -21,7 +21,7 @@ const Footer = () => {
           rel="noreferrer"
       >
         <img className="transition duration-300 ease-in-out hover:scale-110"
-         width="40" src={GitHub}></img>
+         width="40" src={GitHub} alt="Github Icon"></img>
       </a>
       <a
           href="https://www.linkedin.com/in/nicolas-murphy/"
@@ -29,7 +29,7 @@ const Footer = () => {
           rel="noreferrer"
       >
         <img className="transition duration-300 ease-in-out hover:scale-110"
-         width="40" src={LinkedIn}></img>
+         width="40" src={LinkedIn} alt="LinkedIn Icon"></img>
       </a>
     </div>
   </div>

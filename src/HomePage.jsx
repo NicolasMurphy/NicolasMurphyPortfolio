@@ -13,7 +13,7 @@ const HomePage = () => {
         <div className="mx-[3%] md:ml-[19%]">
           <div className="md:my-[2.5%] flex flex-col items-center md:flex-row md:max-fit">
             <img className="fade-in-3 md:mb-[0%] mb-[8%] rounded-full object-cover h-64 md:h-auto
-            md:w-48" src={headshot} alt=""/>
+            md:w-48" src={headshot} alt="Nicolas Murphy"/>
             <div className="flex flex-col justify-between">
               <p className="fade-in-4 md:text-2xl text-lg md:text-left text-center md:mx-[3%]
               mx-[9.5%] md:mr-[30%] font-normal">

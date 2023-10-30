@@ -139,6 +139,78 @@
   animation-fill-mode: forwards;
 }
 
+.fade-in-12 {
+  animation: fadein 3s;
+  animation-delay: 6s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:6s;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:6s;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-13 {
+  animation: fadein 3s;
+  animation-delay: 6500ms;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:6500ms;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:6500ms;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-14 {
+  animation: fadein 3s;
+  animation-delay: 7s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:7s;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:7s;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-15 {
+  animation: fadein 3s;
+  animation-delay: 7500ms;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:7500ms;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:7500ms;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-16 {
+  animation: fadein 3s;
+  animation-delay: 8s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:8s;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:8s;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-17 {
+  animation: fadein 3s;
+  animation-delay: 8500ms;
+  -moz-animation: fadein 3s; /* Firefox */
+  -moz-animation-delay:8500ms;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -webkit-animation-delay:8500ms;
+  -o-animation: fadein 3s; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
 @keyframes fadein {
   0% {
     opacity: 0;

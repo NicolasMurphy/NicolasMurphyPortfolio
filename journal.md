@@ -1,8 +1,12 @@
 # 10/29/23
     Goals:
         - add songseeker photos, links
+        - update hashrouter, public_url
+        -
     Notes:
         - updated resume link
+        - added alt descriptions
+        -
 
 
 # 10/24/23
