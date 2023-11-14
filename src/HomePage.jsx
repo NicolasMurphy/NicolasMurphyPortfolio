@@ -1,4 +1,4 @@
-import headshot from "./Images/picofmesmaller.png";
+import headshot from "./Images/picmegraycrop.png";
 import Skills from "./Skills";
 
 const HomePage = () => {
