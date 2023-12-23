@@ -24,7 +24,7 @@ const Projects = () => {
           </p>
           <div className="fade-in-4 grid grid-flow-col gap-4 mx-[30%] md:mx-[45%] md:mb-[2%] mb-[7%]">
             <a
-              href="https://songseeker-beta.vercel.app"
+              href="https://songseeker.xyz"
               target="_blank"
               rel="noreferrer"
             >
