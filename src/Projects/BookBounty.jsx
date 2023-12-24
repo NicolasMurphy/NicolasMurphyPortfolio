@@ -9,7 +9,7 @@ const BookBounty = () => {
         <h1 className="fade-in-7 text-5xl lg:text-7xl font-bold">BookBounty</h1>
         <div className="lg:grid lg:grid-cols-3">
           <div>
-          <p className="font-bold fade-in-2 text-md xl:text-2xl xl:my-[2%] my-[6%] mx-[5%]">
+          <p className="font-bold fade-in-8 text-md xl:text-2xl xl:my-[2%] my-[6%] mx-[5%]">
               FastAPI | MongoDB | React | Redux | TailwindCSS | DaisyUI | Docker
             </p>
             <div className="fade-in-9 grid grid-flow-col gap-4 mx-[35%] lg:mx-[45%]">
