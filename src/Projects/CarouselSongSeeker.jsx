@@ -28,11 +28,11 @@ export default function CarouselBookBounty() {
 
   return (
     <>
-      <div className="fade-in-6 mx-auto px-[5%] md:w-[80%]">
+      <div className="fade-in-6 mx-auto px-[2.5%]">
         <Slider {...settings}>
           {images?.map((image) => (
             <div key={image}>
-              <img className="mx-auto" src={image} alt="Screenshots of the SongSeeker website" />
+              <img src={image} alt="Screenshots of the SongSeeker website" />
             </div>
           ))}
         </Slider>

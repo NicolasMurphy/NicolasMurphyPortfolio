@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <>
       <div className="text-center">
-        <div className="text-center w-full md:my-[5%] my-[10%]">
+        <div className="text-center w-full md:my-[2%] my-[5%]">
           <h1 className="fade-in text-5xl md:text-7xl font-bold">Nicolas Murphy</h1>
             <p className="fade-in-2 text-3xl md:text-5xl md:my-[3%] my-[8%]">Full-Stack Developer</p>
         </div>

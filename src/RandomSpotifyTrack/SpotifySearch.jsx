@@ -31,7 +31,7 @@ const SpotifySearch = () => {
   };
 
   return (
-    <div className="text-center my-12">
+    <div className="text-center my-[2%] mt-[5%]">
       <button
         className="btn btn-accent rounded-full my-6"
         onClick={() =>

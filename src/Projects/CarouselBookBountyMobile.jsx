@@ -16,7 +16,7 @@ export default function CarouselBookBountyMobile() {
 
   const settings = {
     dots: true,
-    arrows:false,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -28,7 +28,7 @@ export default function CarouselBookBountyMobile() {
 
   return (
     <>
-      <div className="fade-in-10 mt-[10%] mb-[20%] md:mt-[5%] md:mb-[5%] mx-auto px-[5%] md:w-[80%]">
+      <div className="fade-in-10 mt-[10%] mb-[20%] lg:mt-[5%] lg:mb-[5%] mx-auto px-[5%] lg:w-[80%]">
         <Slider {...settings}>
           {images?.map((image) => (
             <div key={image}>

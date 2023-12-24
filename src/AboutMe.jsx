@@ -3,7 +3,7 @@ import MeGuitar from "./Images/RoxyFloresPhoto_MeGuitarCropped.jpg";
 const AboutMe = () => {
   return (
     <>
-      <div className="text-center md:mt-[5%] mt-[10%] md:mb-[3%] mb-[10%]">
+      <div className="text-center md:mt-[2%] mt-[5%] md:mb-[3%] mb-[10%]">
         <h1 className="fade-in text-5xl md:text-7xl font-bold">About Me</h1>
       </div>
       <div className="mx-[2%] md:ml-[19%]">

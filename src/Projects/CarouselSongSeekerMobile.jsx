@@ -16,7 +16,7 @@ export default function CarouselBookBountyMobile() {
 
   const settings = {
     dots: true,
-    arrows:false,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -28,11 +28,11 @@ export default function CarouselBookBountyMobile() {
 
   return (
     <>
-      <div className="fade-in-4 my-[20%] md:my-[5%] mx-auto px-[5%] md:w-[80%]">
+      <div className="fade-in-4 my-[20%] lg:my-[5%] mx-auto px-[5%] lg:w-[80%]">
         <Slider {...settings}>
           {images?.map((image) => (
             <div key={image}>
-              <img className="mx-auto" width="250" src={image} alt="Screenshots of the SongSeeker mobile website" />
+              <img className="mx-auto" width="400" src={image} alt="Screenshots of the SongSeeker mobile website" />
             </div>
           ))}
         </Slider>
