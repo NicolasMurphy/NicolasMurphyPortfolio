@@ -31,9 +31,9 @@ const SpotifySearch = () => {
   };
 
   return (
-    <div className="text-center my-[2%] mt-[5%]">
+    <div className="text-center lg:pt-[2%] pt-[5%]">
       <button
-        className="btn btn-accent rounded-full my-6"
+        className="btn btn-accent rounded-full mb-6"
         onClick={() =>
           getRandomTrack(accessToken, setTrack, setIsLoading, resetAudio)
         }

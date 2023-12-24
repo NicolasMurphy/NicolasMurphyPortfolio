@@ -3,8 +3,8 @@ import MeGuitar from "./Images/RoxyFloresPhoto_MeGuitarCropped.jpg";
 const AboutMe = () => {
   return (
     <>
-      <div className="text-center md:mt-[2%] mt-[5%] md:mb-[3%] mb-[10%]">
-        <h1 className="fade-in text-5xl md:text-7xl font-bold">About Me</h1>
+      <div className="text-center md:mt-[2%] mt-[5%]">
+        <h1 className="fade-in text-5xl md:text-7xl font-bold lg:mb-[3%] mb-[10%]">About Me</h1>
       </div>
       <div className="mx-[2%] md:ml-[19%]">
         <div className="md:mt-[2.5%] flex flex-col items-center md:flex-row md:max-fit">
@@ -17,8 +17,8 @@ const AboutMe = () => {
           />
           <div className="flex flex-col justify-between">
             <p
-              className="fade-in-3 md:text-2xl text-lg md:text-left text-center md:mx-[3%]
-              mx-[9.5%] md:mr-[25%] font-normal"
+              className="fade-in-3 lg:text-2xl text-lg lg:text-left text-center lg:mx-[3%]
+              mx-[9.5%] lg:mr-[25%] font-normal"
             >
               Hi, my name is <span className="font-bold">Nicolas Murphy</span>,
               and I'm based out of{" "}
@@ -33,7 +33,7 @@ const AboutMe = () => {
       </div>
 
       <div className="fade-in-4 md:text-2xl text-lg text-center
-      mb-[20%] md:mb-[10%] mt-[10%] md:mt-[5%]">
+      mb-[10%] lg:mb-[5%] mt-[10%] lg:mt-[5%]">
         When I'm not coding, you'll find me making music, playing chess, or
         strength training!
       </div>
