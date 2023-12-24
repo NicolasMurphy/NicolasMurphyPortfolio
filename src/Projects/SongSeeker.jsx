@@ -1,6 +1,6 @@
 import CarouselSongSeeker from "./CarouselSongSeeker";
 import CarouselSongSeekerMobile from "./CarouselSongSeekerMobile";
-import GitHub from "../Images/github-142-svgrepo-com.png";
+import GitHub from "../Images/github-142-svgrepo-com.svg";
 import SongSeekerIcon from "../Images/SongSeekerIcon.svg";
 
 const SongSeeker = () => {

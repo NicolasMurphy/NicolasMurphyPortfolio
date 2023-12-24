@@ -1,5 +1,5 @@
 import CarouselCarCar from "./CarouselCarCar";
-import GitLab from "../Images/gitlab-svgrepo-com.png";
+import GitLab from "../Images/gitlab-svgrepo-com.svg";
 
 const CarCar = () => {
   return (

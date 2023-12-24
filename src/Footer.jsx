@@ -1,6 +1,6 @@
-import GitLab from "./Images/gitlab-svgrepo-com.png"
-import GitHub from "./Images/github-142-svgrepo-com.png"
-import LinkedIn from "./Images/linkedin-161-svgrepo-com.png"
+import GitLab from "./Images/gitlab-svgrepo-com.svg"
+import GitHub from "./Images/github-color-svgrepo-com.svg"
+import LinkedIn from "./Images/linkedin-color-svgrepo-com.svg"
 
 const Footer = () => {
     return (

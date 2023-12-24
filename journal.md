@@ -5,7 +5,7 @@
         - Update technologies for projects styling, possibly badges
         - Remove hash router
         - Possibly update projects to include Appointment Tracker, this portfolio, building calculator?
-        - Update gitlab, github, linkedin logos to something more colorful
+        - Update gitlab, github, linkedin logos to something more colorful ✓
         - Fix SongSeeker mobile picture issue on mobile
         -
     Notes:

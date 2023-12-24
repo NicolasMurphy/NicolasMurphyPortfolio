@@ -1,6 +1,6 @@
 import CarouselBookBounty from "./CarouselBookBounty";
 import CarouselBookBountyMobile from "./CarouselBookBountyMobile";
-import GitLab from "../Images/gitlab-svgrepo-com.png";
+import GitLab from "../Images/gitlab-svgrepo-com.svg";
 
 const BookBounty = () => {
   return (
