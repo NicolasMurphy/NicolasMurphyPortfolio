@@ -30,7 +30,7 @@ const BookBounty = () => {
                 <CarouselBookBountyMobile />
               </div>
               <div className="m-auto">
-                <p className="fade-in-11 text-sm md:text-lg lg:mx-[10%] mx-[5%] lg:pb-[5%] pb-[10%]">
+                <p className="fade-in-11 text-sm md:text-lg lg:mx-[1%] mx-[5%]">
                   A microservice application developed by a four person team,
                   for keeping track of and sharing your favorite books! Features
                   ability to sign up, login, search books (utilizes OpenLibrary
