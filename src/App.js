@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem("theme", theme);
     const html = document.querySelector("html");
-    if (theme === "dark") {
+    if (theme === "light") {
       html.classList.add("dark");
       html.classList.remove("business");
       html.classList.add("corporate");

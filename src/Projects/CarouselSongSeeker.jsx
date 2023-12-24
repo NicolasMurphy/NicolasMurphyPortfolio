@@ -28,7 +28,7 @@ export default function CarouselBookBounty() {
 
   return (
     <>
-      <div className="fade-in-5 mx-auto px-[5%] md:w-[80%]">
+      <div className="fade-in-6 mx-auto px-[5%] md:w-[80%]">
         <Slider {...settings}>
           {images?.map((image) => (
             <div key={image}>

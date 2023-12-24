@@ -27,7 +27,7 @@ export default function CarouselCarCar() {
 
   return (
     <>
-      <div className="fade-in-17 mx-auto mb-[25%] md:mb-[10%] mx-auto px-[5%] md:w-[80%]">
+      <div className="fade-in-17 mx-auto px-[5%] md:w-[80%]">
         <Slider {...settings}>
           {images?.map((image) => (
             <div key={image}>

@@ -52,7 +52,7 @@ const Skills = () => {
             {skillList?.map((skill) => (
               <div
                 key={skill.name}
-                className="bg-base-100 text-base-content border border-gray-300 dark:border-gray-700 rounded-full
+                className="bg-base-100 text-base-content border border-gray-700 dark:border-gray-300 rounded-full
                 shadow p-4 text-center text-md">
                 <img className="mx-auto" width="60" src={skill.src} alt="">
                 </img>

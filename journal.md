@@ -1,3 +1,15 @@
+# 12/24/23
+    Goals:
+        - Update projects page for better styling, change background color ✓
+        - For projects, move slider to left/right of description and mobile slider
+        - Update technologies for projects styling, possibly badges
+        - Remove hash router
+        - Possibly update projects to include Appointment Tracker, this portfolio, building calculator?
+        - Update gitlab, github, linkedin logos to something more colorful
+        -
+    Notes:
+        -
+
 # 12/23/23
     Goals:
         - Update projects page to include cards, change background color
