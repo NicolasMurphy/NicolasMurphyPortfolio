@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 import HomePage from "./HomePage";
 import Footer from "./Footer";
@@ -36,7 +36,7 @@ function App() {
   };
 
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <>
         <div
           id="main-div"
@@ -85,7 +85,7 @@ function App() {
           <Footer />
         </div>
       </>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
