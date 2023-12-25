@@ -4,7 +4,7 @@ import GitLab from "../Images/gitlab-svgrepo-com.svg";
 const CarCar = () => {
   return (
     <>
-      <div className="text-center lg:pt-[2%] pt-[5%] bg-slate-400 dark:bg-slate-800">
+      <div className="text-center lg:pt-[2%] pt-[5%] animate-transition3">
         <h1 className="fade-in-13 text-5xl lg:text-7xl font-bold">CarCar</h1>
         <div className="lg:grid lg:grid-cols-3">
           <div>
@@ -34,7 +34,7 @@ const CarCar = () => {
                 styling.
               </p>
           </div>
-          <div className="bg-slate-400 dark:bg-slate-800 lg:mt-[5%] lg:pb-[5%] pb-[10%] self-center col-span-2">
+          <div className="animate-transition3 lg:mt-[5%] lg:pb-[5%] pb-[10%] self-center col-span-2">
             <CarouselCarCar />
           </div>
         </div>

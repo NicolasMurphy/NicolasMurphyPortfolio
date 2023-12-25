@@ -5,7 +5,7 @@ import GitLab from "../Images/gitlab-svgrepo-com.svg";
 const BookBounty = () => {
   return (
     <>
-      <div className="text-center lg:pt-[2%] pt-[5%] bg-slate-300 dark:bg-slate-700">
+      <div className="text-center lg:pt-[2%] pt-[5%] animate-transition2">
         <h1 className="fade-in-7 text-5xl lg:text-7xl font-bold">BookBounty</h1>
         <div className="lg:grid lg:grid-cols-3">
           <div>
@@ -42,7 +42,7 @@ const BookBounty = () => {
               </div>
             </div>
           </div>
-          <div className="bg-slate-300 dark:bg-slate-700 lg:mt-[5%] lg:pb-[5%] pb-[10%] self-center col-span-2">
+          <div className="animate-transition2 lg:mt-[5%] lg:pb-[5%] pb-[10%] self-center col-span-2">
             <CarouselBookBounty />
           </div>
         </div>

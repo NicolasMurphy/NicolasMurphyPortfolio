@@ -2,6 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Background Color Transitions */
+
+/* Light mode transition */
+@keyframes light1 {
+  from {
+    background-color: #fff; /* Starting color for light mode */
+  }
+  to {
+    background-color: #e2e8f0; /* Ending color for light mode */
+  }
+}
+@keyframes light2 {
+  from {
+    background-color: #fff; /* Starting color for light mode */
+  }
+  to {
+    background-color: #cbd5e1; /* Ending color for light mode */
+  }
+}
+@keyframes light3 {
+  from {
+    background-color: #fff; /* Starting color for light mode */
+  }
+  to {
+    background-color: #94a3b8; /* Ending color for light mode */
+  }
+}
+
+/* Dark mode transition */
+@keyframes dark1 {
+  from {
+    background-color: #212121; /* Starting color for dark mode */
+  }
+  to {
+    background-color: #475569; /* Ending color for dark mode */
+  }
+}
+@keyframes dark2 {
+  from {
+    background-color: #212121; /* Starting color for dark mode */
+  }
+  to {
+    background-color: #334155; /* Ending color for dark mode */
+  }
+}
+@keyframes dark3 {
+  from {
+    background-color: #212121; /* Starting color for dark mode */
+  }
+  to {
+    background-color: #1e293b; /* Ending color for dark mode */
+  }
+}
+
+/* Apply light mode animation by default */
+.animate-transition1 {
+  animation: light1 1s ease-in forwards;
+}
+.animate-transition2 {
+  animation: light2 1s ease-in forwards;
+}
+.animate-transition3 {
+  animation: light3 1s ease-in forwards;
+}
+
+/* Override with dark mode animation when dark class is present */
+.dark .animate-transition1 {
+  animation: dark1 1s ease-in forwards;
+}
+.dark .animate-transition2 {
+  animation: dark2 1s ease-in forwards;
+}
+.dark .animate-transition3 {
+  animation: dark3 1s ease-in forwards;
+}
+
+/* Carousel Colors */
+
 .slick-prev:before,
 .slick-next:before {
   color: #6B6B6B!important;
@@ -11,6 +89,7 @@
   color: #6B6B6B!important;
 }
 
+/* Fades */
 
 .fade-in {
   animation: fadein 3s;

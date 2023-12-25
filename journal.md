@@ -1,5 +1,13 @@
 # 12/24/23
     Goals:
+        - Add transition colors for background of projects
+        - Improve styling for project description
+        -
+    Notes:
+        -
+
+# 12/24/23
+    Goals:
         - Update projects page for better styling, change background color ✓
         - For projects, move slider to left/right of description and mobile slider ✓
         - Update technologies for projects styling, possibly badges
@@ -8,6 +16,7 @@
         - Update gitlab, github, linkedin logos to something more colorful ✓
         - Fix SongSeeker mobile picture issue on mobile
         - Add transition colors for background of projects
+        - Embed Resume
         -
     Notes:
         -

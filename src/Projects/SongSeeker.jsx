@@ -6,7 +6,7 @@ import SongSeekerIcon from "../Images/SongSeekerIcon.svg";
 const SongSeeker = () => {
   return (
     <>
-      <div className="text-center bg-slate-200 dark:bg-slate-600">
+      <div className="text-center animate-transition1">
         <div className="text-center w-full lg:pt-[2%] pt-[5%]"></div>
         <h1 className="fade-in text-5xl lg:text-7xl font-bold">SongSeeker</h1>
         <div className="lg:grid lg:grid-cols-3">
@@ -50,7 +50,7 @@ const SongSeeker = () => {
               </div>
             </div>
           </div>
-          <div className="bg-slate-200 dark:bg-slate-600 lg:mt-[5%] lg:pb-[5%] pb-[10%] self-center col-span-2">
+          <div className="animate-transition1 lg:mt-[5%] lg:pb-[5%] pb-[10%] self-center col-span-2">
             <CarouselSongSeeker />
           </div>
         </div>
