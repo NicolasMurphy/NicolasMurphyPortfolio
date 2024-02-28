@@ -3,6 +3,7 @@
         - Add glass nav
         - Added aria label for menu nav
         - Get 100 score on PageSpeed Insights
+        - User web optimized head shot
         -
     Notes:
         -
