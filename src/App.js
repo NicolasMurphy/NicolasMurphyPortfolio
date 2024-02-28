@@ -43,7 +43,7 @@ function App() {
           data-theme={theme === "light" ? "business" : "corporate"}
         >
           <div className="mx-auto min-w-screen min-h-screen">
-            <div className="navbar">
+            <div className="navbar sticky top-0 z-10 backdrop-filter backdrop-blur-lg bg-opacity-30">
               <Nav />
               <div className="navbar-end">
                 <div className="hidden lg:flex">
