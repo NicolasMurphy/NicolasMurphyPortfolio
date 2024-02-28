@@ -1,3 +1,12 @@
+# 2/28/24
+    Goals:
+        - Add glass nav
+        - Added aria label for menu nav
+        - Get 100 score on PageSpeed Insights
+        -
+    Notes:
+        -
+
 # 12/24/23
     Goals:
         - Add transition colors for background of projects
