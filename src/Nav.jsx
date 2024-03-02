@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
+
+  const resumeLink = "https://drive.google.com/file/d/1ycDbHj4QuIOnKGjrfXd8AKQCplWN5f4L/view?usp=sharing";
+
   return (
     <>
       <div className="navbar-start">
@@ -33,7 +36,7 @@ const Nav = () => {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1ijAGnAyCpgnQrQ8IsBrH6SiyEoLHWwqI/view?usp=sharing"
+                href={ resumeLink }
                 target="_blank"
                 rel="noreferrer"
               >
@@ -61,7 +64,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1ijAGnAyCpgnQrQ8IsBrH6SiyEoLHWwqI/view?usp=sharing"
+              href={ resumeLink }
               target="_blank"
               rel="noreferrer"
             >

@@ -1,3 +1,18 @@
+# 3/2/24
+    Goals:
+        - Update all images to webp
+        - Update DaisyUI
+        -
+    Notes:
+        -
+
+# 2/29/24
+    Goals:
+        - Update all images to webp
+        -
+    Notes:
+        -
+
 # 2/28/24
     Goals:
         - Add glass nav
