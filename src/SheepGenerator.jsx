@@ -10,9 +10,9 @@ const SheepGenerator = () => {
   };
 
   return (
-    <div className="pr-3">
+    <div className="pr-4">
       <button
-        className="btn btn-secondary btn-circle"
+        className="btn btn-accent btn-circle normal-case"
         onClick={handleGenerateSheep}
       >
         Sheep
