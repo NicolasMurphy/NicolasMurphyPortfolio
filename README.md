@@ -17,6 +17,7 @@ Welcome to my personal portfolio! This portfolio showcases my projects and skill
 - Random Spotify Track feature integrating Spotify API
 - Responsive design ensuring compatibility with various devices
 - Dark and light mode for user preference
+- [eSheep](https://adrianotiger.github.io/web-esheep/)
 
 ## Setup and Installation
 To set up this portfolio locally:
