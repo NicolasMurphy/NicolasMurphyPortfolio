@@ -9,6 +9,7 @@ import AboutMe from "./AboutMe";
 import dark_mode_icon from "./Images/dark-mode-icon-blue.png";
 import light_mode_icon from "./Images/light-mode-icon-orange.png";
 import NotFound from "./NotFound";
+import SheepGenerator from "./SheepGenerator";
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -55,6 +56,7 @@ function App() {
                     </li>
                   </ul>
                 </div>
+                <SheepGenerator />
                 <button
                   onClick={handleThemeSwitch}
                   id="theme-toggle"

@@ -1,3 +1,10 @@
+# 4/9
+    Goals:
+        -
+    Notes:
+        - Sheep
+        -
+
 # 3/2/24
     Goals:
         - Update all images to webp
