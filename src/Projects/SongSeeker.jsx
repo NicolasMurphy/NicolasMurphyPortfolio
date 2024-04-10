@@ -41,7 +41,7 @@ const SongSeeker = () => {
               <div className="m-auto">
                 <p className="fade-in-5 text-sm md:text-lg lg:mx-[1%] mx-[5%]">
                   A solo, frontend application. SongSeeker is a music education
-                  geography game! Featuring music from over 50 countries! The
+                  geography game! Featuring music from over 150 countries! The
                   user guesses a random song's location (utilizing the Spotify
                   and Google Maps API), and is given a score based on how close
                   they were. Users can also submit their score to the

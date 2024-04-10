@@ -1,3 +1,12 @@
+# 4/10
+    Goals:
+        - Styling for projects still needs work, perhaps use cards
+        -
+    Notes:
+        - Updated resume link
+        - Updated songseeker description
+        -
+
 # 4/9
     Goals:
         -
