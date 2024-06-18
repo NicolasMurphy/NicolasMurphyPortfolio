@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
 
-  const resumeLink = "https://docs.google.com/document/d/1T2LxnHD7RVhmmRnw_OkQHk72vswUVNYkYSyPpGljPQs/edit?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1BZB0FRQAFBstv3eWZPc-sRIO8mXS7k6w/view?usp=sharing";
 
   return (
     <>
