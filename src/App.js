@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import HomePage from "./HomePage";
 import Footer from "./Footer";
@@ -49,11 +49,11 @@ function App() {
               <div className="navbar-end">
                 <div className="hidden lg:flex">
                   <ul className="menu menu-horizontal px-4">
-                    <li>
+                    {/* <li>
                       <NavLink to={"/random-spotify-track/"}>
                         Random Spotify Track!
                       </NavLink>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <SheepGenerator />
