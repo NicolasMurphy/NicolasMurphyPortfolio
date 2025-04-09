@@ -1,4 +1,3 @@
-import axios from "axios";
 import * as cheerio from "cheerio";
 
 export default async function handler(req, res) {
@@ -9,7 +8,9 @@ export default async function handler(req, res) {
   }
 
   try {
-    const html = await axios.get(spotifyUrl).then((r) => r.data);
+    const html = await fetch(spotifyUrl)
+      .then((response) => response.text())
+      .then((data) => data);
     const $ = cheerio.load(html);
 
     const scdnLinks = new Set();
