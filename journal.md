@@ -1,3 +1,11 @@
+# 4/9/25
+    Goals:
+        - consider rate limiting the scraping
+        - consider better error handling
+        -
+    Notes:
+        -
+
 # 4/8/25
     Goals:
         - Get the "Random Spotify Track" functioning again
@@ -8,6 +16,7 @@
         - had to use api calls because of CORS issues
         - consider rate limiting the scraping
         - consider better error handling
+        - axios doesn't work with vercel (at least not without a custom build) - use fetch instead
         -
 
 # 4/10
