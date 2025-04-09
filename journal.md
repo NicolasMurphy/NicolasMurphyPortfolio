@@ -1,3 +1,15 @@
+# 4/8/25
+    Goals:
+        - Get the "Random Spotify Track" functioning again
+        -
+    Notes:
+        - preview_url is deprecated
+        - found a package that scrapes the spotify url, ended up taking that part of the code instead of using the library
+        - had to use api calls because of CORS issues
+        - consider rate limiting the scraping
+        - consider better error handling
+        -
+
 # 4/10
     Goals:
         - Styling for projects still needs work, perhaps use cards
