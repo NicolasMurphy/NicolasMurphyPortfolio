@@ -1,8 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import SpotifyIcon from "./SpotifyIcon";
 import { refreshAccessToken, getRandomTrack } from "./api";
-import "./iframe.css"
-
+import "./iframe.css";
 
 const SpotifySearch = () => {
   const [track, setTrack] = useState(null);
@@ -21,6 +20,12 @@ const SpotifySearch = () => {
       getRandomTrack(accessToken, setTrack, setIsLoading, resetAudio);
     }
   }, [accessToken, isFirstLoad]);
+
+  useEffect(() => {
+    if (track && audioRef.current) {
+      audioRef.current.play();
+    }
+  }, [track]);
 
   const resetAudio = () => {
     if (audioRef.current) {

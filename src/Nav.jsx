@@ -43,11 +43,11 @@ const Nav = () => {
                 Resume
               </a>
             </li>
-            {/* <li>
+            <li>
               <NavLink to={"/random-spotify-track/"}>
                 Random Spotify Track!
               </NavLink>
-            </li> */}
+            </li>
           </ul>
         </div>
         <NavLink to={"/"} className="btn btn-ghost normal-case text-xl">
