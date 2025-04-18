@@ -27,7 +27,7 @@ export default function MassSpectrometryMusic() {
         </footer>
       </blockquote>
 
-      <div className="space-y-5 mt-2 leading-relaxed text-base-content text-lg">
+      <div className="space-y-5 mt-4 leading-relaxed text-base-content text-lg">
         <p>
           I was scrolling through X (formerly Twitter), when I first stumbled
           across this quote. I was immediately fascinated by the idea, and knew
@@ -36,7 +36,7 @@ export default function MassSpectrometryMusic() {
 
         <p>
           As I dug further into the idea of turning biology into sound, I came
-          across several related projects:{" "}
+          across a few similar concepts:{" "}
           <a
             className="link link-primary"
             href="https://en.wikipedia.org/wiki/Protein_music"
@@ -67,7 +67,7 @@ export default function MassSpectrometryMusic() {
         </p>
 
         <p>
-          Some of these approaches — particularly Molecular Music® — also use
+          Some of these approaches — particularly Molecular Music® — uses
           real data from biological structures, such as 3D positions of amino
           acids derived from X-ray crystallography. Others focus on mapping
           symbolic sequences like DNA or proteins to musical notes.

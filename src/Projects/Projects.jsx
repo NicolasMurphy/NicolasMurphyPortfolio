@@ -18,6 +18,7 @@ const projects = [
     description:
       "A project for converting mass spectrum .txt files into .wav files.",
     repo: "https://github.com/NicolasMurphy/mass-spectrum-to-audio-converter",
+    blog: "/blog/mass-spectrometry-music",
     tags: ["Python", "Audio", "Experimental"],
   },
   {
@@ -43,8 +44,7 @@ const projects = [
   },
   {
     title: "My First Plugin",
-    description:
-      "JUCE-powered comb filter inspired by Reason’s Thor.",
+    description: "JUCE-powered comb filter inspired by Reason’s Thor.",
     repo: "https://github.com/NicolasMurphy/MyFirstPlugin",
     tags: ["C++", "Audio", "VST"],
   },
@@ -76,15 +76,17 @@ export default function ProjectsPage() {
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="badge badge-outline badge-sm"
-                  >
+                  <span key={tag} className="badge badge-outline badge-sm">
                     {tag}
                   </span>
                 ))}
               </div>
               <div className="card-actions justify-end">
+                {project.blog && (
+                  <a href={project.blog} className="btn btn-sm btn-secondary">
+                    Read Blog
+                  </a>
+                )}
                 <a
                   href={project.repo}
                   target="_blank"
@@ -98,8 +100,8 @@ export default function ProjectsPage() {
           </div>
         ))}
       </div>
-      <br/>
-      <br/>
+      <br />
+      <br />
     </div>
   );
 }
