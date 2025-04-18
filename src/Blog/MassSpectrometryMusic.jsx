@@ -217,7 +217,7 @@ def generate_wave(freq, intensity, duration, sr):
           </a>
         </p>
 
-        <p>
+        <p className="pt-4">
           I did the same with another Bach piece:{" "}
           <em>
             Concerto in F "in the Italian Manner" for Solo Keyboard (first

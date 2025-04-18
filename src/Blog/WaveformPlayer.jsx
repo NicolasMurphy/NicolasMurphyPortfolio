@@ -7,7 +7,7 @@ export default function WaveformPlayer({ src }) {
   const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
-    if (!containerRef.current) return;
+    if (!containerRef.current || !src) return;
 
     waveRef.current = WaveSurfer.create({
       container: containerRef.current,
@@ -39,10 +39,7 @@ export default function WaveformPlayer({ src }) {
     <div className="my-4 w-full">
       <div ref={containerRef} className="rounded-md overflow-hidden" />
       {isReady && (
-        <button
-          onClick={togglePlay}
-          className="btn btn-sm btn-primary mt-2"
-        >
+        <button onClick={togglePlay} className="btn btn-sm btn-primary mt-2">
           Play / Pause
         </button>
       )}
