@@ -160,8 +160,9 @@ def generate_wave(freq, intensity, duration, sr):
 
         <p>
           Each m/z value is scaled into a frequency, and its intensity becomes
-          volume. I sum the resulting waves and output them as <code>.wav</code>{" "}
-          files. (See the full implementation on GitHub.)
+          volume. I use basic additive synthesis — summing sine waves — to
+          generate the final <code>.wav</code> output. (See the full
+          implementation on GitHub.)
         </p>
 
         <h2 className="text-2xl font-bold mt-10">Sample Input (.txt)</h2>
