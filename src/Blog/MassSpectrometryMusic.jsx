@@ -4,10 +4,9 @@ import WaveformPlayer from "./WaveformPlayer";
 export default function MassSpectrometryMusic() {
   return (
     <div className="max-w-3xl mx-auto px-4 md:px-0 mt-16 fade-in">
-      <h1 className="text-4xl font-bold mb-6">Mass Spectrometry Music</h1>
-      <p className="mb-6 italic text-base-content/70">
-        Converting spectra data into sound
-      </p>
+      <h1 className="text-4xl font-bold mb-4">Mass Spectrometry Music</h1>
+      <p className="text-lg mb-2">Converting spectral data into sound</p>
+      <p className="text-sm text-base-content/60 mb-6">Last updated: April 18, 2025</p>
 
       <blockquote className="bg-base-200 border-l-4 border-primary pl-6 pr-4 py-4 rounded-md shadow-md">
         <p className="italic">
