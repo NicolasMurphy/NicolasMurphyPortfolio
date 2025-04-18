@@ -35,6 +35,9 @@ const Nav = () => {
               <NavLink to={"/projects/"}>Projects</NavLink>
             </li>
             <li>
+              <NavLink to={"/blog/"}>Blog</NavLink>
+            </li>
+            <li>
               <a
                 href={ resumeLink }
                 target="_blank"
@@ -61,6 +64,9 @@ const Nav = () => {
           </li>
           <li>
             <NavLink to={"/projects/"}>Projects</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/blog/"}>Blog</NavLink>
           </li>
           <li>
             <a

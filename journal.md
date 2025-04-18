@@ -1,3 +1,12 @@
+# 4/18/25
+    Goals:
+        - consider rate limiting the scraping
+        - consider better error handling
+        -
+    Notes:
+        - Added blog section
+        - Consider overhauling projects
+
 # 4/9/25
     Goals:
         - consider rate limiting the scraping

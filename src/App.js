@@ -10,6 +10,8 @@ import dark_mode_icon from "./Images/dark-mode-icon-blue.png";
 import light_mode_icon from "./Images/light-mode-icon-orange.png";
 import NotFound from "./NotFound";
 import SheepGenerator from "./SheepGenerator";
+import BlogList from "./Blog/BlogList";
+import BlogPostDetail from "./Blog/BlogPostDetail";
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -77,6 +79,8 @@ function App() {
               <Route index element={<HomePage />} />
               <Route path="aboutme/" element={<AboutMe />} />
               <Route path="projects/" element={<Projects />} />
+              <Route path="blog/" element={<BlogList />} />
+              <Route path="/blog/:slug" element={<BlogPostDetail />} />
               <Route
                 path="random-spotify-track/"
                 element={<RandomSpotifyTrack />}
