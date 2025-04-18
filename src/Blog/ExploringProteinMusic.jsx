@@ -24,7 +24,7 @@ export default function ExploringProteinMusic() {
         </footer>
       </blockquote>
 
-      <div className="space-y-5 leading-relaxed text-base-content text-lg">
+      <div className="space-y-5 mt-2 leading-relaxed text-base-content text-lg">
         <p>
           That quote sent me down a rabbit hole. It turns out this concept is
           called <strong>Protein Music</strong>, which has been explored since
