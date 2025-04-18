@@ -5,8 +5,10 @@ export default function MassSpectrometryMusic() {
   return (
     <div className="max-w-3xl mx-auto px-4 md:px-0 mt-16 fade-in">
       <h1 className="text-4xl font-bold mb-4">Mass Spectrometry Music</h1>
-      <p className="text-lg mb-2">Converting spectral data into sound</p>
-      <p className="text-sm text-base-content/60 mb-6">Last updated: April 18, 2025</p>
+      <p className="text-lg mb-2">Converting spectra data into sound</p>
+      <p className="text-sm text-base-content/60 mb-6">
+        Last updated: April 18, 2025
+      </p>
 
       <blockquote className="bg-base-200 border-l-4 border-primary pl-6 pr-4 py-4 rounded-md shadow-md">
         <p className="italic">
@@ -67,10 +69,10 @@ export default function MassSpectrometryMusic() {
         </p>
 
         <p>
-          Some of these approaches — particularly Molecular Music® — uses
-          real data from biological structures, such as 3D positions of amino
-          acids derived from X-ray crystallography. Others focus on mapping
-          symbolic sequences like DNA or proteins to musical notes.
+          Some of these approaches — particularly Molecular Music® — uses real
+          data from biological structures, such as 3D positions of amino acids
+          derived from X-ray crystallography. Others focus on mapping symbolic
+          sequences like DNA or proteins to musical notes.
         </p>
 
         <p>
@@ -193,9 +195,7 @@ def generate_wave(freq, intensity, duration, sr):
           surprisingly similar to a harpsichord.
         </p>
 
-        <h2 className="text-2xl font-bold mt-10">
-          Bach's English Suite No. 3 Prelude (Oxytocin)
-        </h2>
+        <h2 className="text-2xl font-bold mt-10">Oxytocin plays Bach</h2>
         <p>
           Because of its similarity to a harpsichord, I used the
           oxytocin-generated tone to render{" "}
@@ -203,12 +203,34 @@ def generate_wave(freq, intensity, duration, sr):
           Sebastian Bach.
         </p>
 
-        <WaveformPlayer src="/Audio/OxytocinBach2.wav" />
+        <WaveformPlayer src="/Audio/english_suite_no_3_in_g_minor_prelude_bmv_808_oxytocin.wav" />
 
         <p className="text-sm text-base-content/60">
           Based on a MIDI sequence by Gary Bricault. Original source:{" "}
           <a
             href="http://www.jsbach.net/midi/midi_english_suites.html"
+            className="link link-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            jsbach.net
+          </a>
+        </p>
+
+        <p>
+          I did the same with another Bach piece:{" "}
+          <em>
+            Concerto in F "in the Italian Manner" for Solo Keyboard (first
+            mvmt.), BWV 971
+          </em>
+        </p>
+
+        <WaveformPlayer src="/Audio/concerto_in_f_in_the_italian_manner_for_solo_keyboard_first_mvmt_bwv971_oxytocin.wav" />
+
+        <p className="text-sm text-base-content/60">
+          Based on a MIDI sequence by T.L. Hubeart Jr.. Original source:{" "}
+          <a
+            href="http://www.jsbach.net/midi/midi_solo_keyboard.html"
             className="link link-primary"
             target="_blank"
             rel="noopener noreferrer"
