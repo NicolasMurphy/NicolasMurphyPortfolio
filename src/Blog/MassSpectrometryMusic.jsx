@@ -168,9 +168,9 @@ def generate_wave(freq, intensity, duration, sr):
 
         <h2 className="text-2xl font-bold mt-10">Sample Input (.txt)</h2>
         <p>
-          Here's a snippet from the actual <code>.txt</code> file I used for
-          oxytocin — the first column is m/z (scaled to pitch), the second is
-          intensity (mapped to volume):
+          Here's a snippet from the raw <code>.txt</code> file for oxytocin,
+          taken from HMDB — the first column shows m/z values, the second shows
+          signal intensity:
         </p>
         <pre className="bg-base-200 p-4 rounded-md overflow-x-auto text-sm">
           <code>
