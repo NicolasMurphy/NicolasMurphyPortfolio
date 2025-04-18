@@ -203,7 +203,7 @@ def generate_wave(freq, intensity, duration, sr):
           Sebastian Bach.
         </p>
 
-        <WaveformPlayer src="/Audio/english_suite_no_3_in_g_minor_prelude_bmv_808_oxytocin.wav" />
+        <WaveformPlayer src="/Audio/english_suite_no_3_oxytocin.wav" />
 
         <p className="text-sm text-base-content/60">
           Based on a MIDI sequence by Gary Bricault. Original source:{" "}
@@ -225,7 +225,7 @@ def generate_wave(freq, intensity, duration, sr):
           </em>
         </p>
 
-        <WaveformPlayer src="/Audio/concerto_in_f_in_the_italian_manner_for_solo_keyboard_first_mvmt_bwv971_oxytocin.wav" />
+        <WaveformPlayer src="/Audio/concerto_in_f_oxytocin.wav" />
 
         <p className="text-sm text-base-content/60">
           Based on a MIDI sequence by T.L. Hubeart Jr.. Original source:{" "}
