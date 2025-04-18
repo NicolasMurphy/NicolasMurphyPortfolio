@@ -147,7 +147,8 @@ export default function MassSpectrometryMusic() {
           How It Works (Short Code Snippet)
         </h2>
         <p>
-          Here's a simplified example of how the script maps values to audio:
+          Here's a snippet from the script showing how values are mapped to
+          audio:
         </p>
         <pre className="bg-base-200 p-4 rounded-md overflow-x-auto text-sm">
           <code>
