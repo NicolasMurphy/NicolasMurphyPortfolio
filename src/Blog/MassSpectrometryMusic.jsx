@@ -239,9 +239,6 @@ def generate_wave(freq, intensity, duration, sr):
           </a>
         </p>
 
-        <h2 className="text-2xl font-bold mt-10">
-          Each Substance Has Its Own Sound
-        </h2>
         <blockquote className="bg-base-200 border-l-4 border-primary pl-6 pr-4 py-4 rounded-md shadow-md">
           <p className="italic">
             Everything vibrates and emits elastic waves that can be translated
