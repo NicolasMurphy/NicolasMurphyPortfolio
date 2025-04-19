@@ -260,9 +260,9 @@ def generate_wave(freq, intensity, duration, sr):
           hoped.
         </p>
         <p>
-          Still, I think the concept is interesting and has potential. I have
-          mostly abandoned making music with these generated-samples, but I may
-          revisit this concept in the future.
+          Still, the concept is interesting and has potential. I have mostly
+          abandoned making music with these generated-samples, but I may revisit
+          this concept in the future.
         </p>
         <p>
           In the meantime, you can check out the project on GitHub, listen to
