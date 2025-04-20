@@ -7,7 +7,7 @@ const projects = [
     tags: ["TypeScript", "Game", "Music"],
   },
   {
-    title: "My Portfolio (this one!)",
+    title: "My Portfolio",
     description:
       "My portfolio showcasing my projects. Features a random Spotify track generator, using Spotify's API.",
     repo: "https://github.com/NicolasMurphy/NicolasMurphyPortfolio",
@@ -65,7 +65,7 @@ export default function ProjectsPage() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="card bg-base-100 shadow-xl border border-base-300"
+            className="card bg-base-100 shadow-xl border border-base-300 dark:border-gray-700"
           >
             <div className="card-body">
               <h2 className="card-title text-xl font-semibold">
@@ -83,7 +83,7 @@ export default function ProjectsPage() {
               </div>
               <div className="card-actions justify-end">
                 {project.blog && (
-                  <a href={project.blog} className="btn btn-sm btn-secondary">
+                  <a href={project.blog} className="btn btn-sm btn-info">
                     Read Blog
                   </a>
                 )}
