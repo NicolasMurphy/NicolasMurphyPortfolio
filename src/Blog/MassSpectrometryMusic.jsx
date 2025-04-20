@@ -36,7 +36,9 @@ export default function MassSpectrometryMusic() {
           “music” of a molecule could mimic its biological effects was
           intriguing—maybe the sound was just unsettling enough to cause a
           reaction, but the suggestion lingered. Could sound really interact
-          with the body in this way? Whether or not it was true, I was curious.
+          with the body in this way? I wasn't sure, but the concept stayed with
+          me. As someone interested in experimental music, I knew I wanted to
+          explore it further.
         </p>
 
         <p>
