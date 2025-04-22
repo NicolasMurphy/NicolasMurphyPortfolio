@@ -44,7 +44,7 @@ const projects = [
   },
   {
     title: "My First Plugin",
-    description: "JUCE-powered comb filter inspired by Reason’s Thor.",
+    description: "JUCE-powered comb filter inspired by Reason's Thor.",
     repo: "https://github.com/NicolasMurphy/MyFirstPlugin",
     tags: ["C++", "Audio", "VST"],
   },
