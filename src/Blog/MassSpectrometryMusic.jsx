@@ -75,27 +75,10 @@ export default function MassSpectrometryMusic() {
         </p>
 
         <p>
-          {/* My method takes a different path. I use data from{" "}
-          <strong>mass spectrometry</strong> — actual measurements of
-          mass-to-charge (m/z) values and signal intensities. Rather than
-          working with megahertz-scale signals, I map mass-to-charge (m/z)
-          values into the audible range using a simple linear formula —
-          multiplying by a constant and adding an offset. This brings most
-          frequencies into the range of a few hundred to a few thousand hertz,
-          where they can be directly played as sound — treating the spectrum
-          like a set of musical overtones. */}
           Eventually, I landed on mass spectrometry data as a unique entry
           point—something grounded in real measurements, but open enough to be
           interpreted musically.
         </p>
-
-        {/* <h2 className="text-2xl font-bold mt-10">Why I Got Interested</h2>
-        <p>
-          The idea that sound could affect your hormonal state was compelling.
-          How did Cyril Smith "play" thyroxin? What would other molecules sound
-          like? As someone interested in experimental music, this idea felt
-          worth exploring.
-        </p> */}
 
         <h2 className="text-2xl font-bold mt-10">Early Experiments</h2>
         <p>
@@ -174,6 +157,7 @@ def generate_sine_wave(freq, intensity, duration, sample_rate):
           final <code>.wav</code> output. The full script handles reading
           spectrum files, filtering low-intensity values, normalizing, and
           writing the final audio file —{" "}
+          {/* consider removing this link since it is already linked above */}
           <a
             className="link link-primary"
             href="https://github.com/NicolasMurphy/mass-spectrum-to-audio-converter"

@@ -175,6 +175,7 @@ export default function WhatIsMicrotonality() {
         </p>
 
         <p>
+          {/* consider removing this part - tuning systems is probably better discussed on a different blog */}
           We'll dive deeper into tuning systems like these in a future post. For
           now, just know that Western music's sound is rooted in a long,
           evolving tradition—and microtonality offers a way to break free from
