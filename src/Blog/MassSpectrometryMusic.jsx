@@ -7,7 +7,7 @@ export default function MassSpectrometryMusic() {
       <h1 className="text-4xl font-bold mb-4">Mass Spectrometry Music</h1>
       <p className="text-lg mb-2">Converting spectra data into sound</p>
       <p className="text-sm text-base-content/60 mb-6">
-        Last updated: April 20, 2025
+        Last updated: April 22, 2025
       </p>
 
       <blockquote className="bg-base-200 border-l-4 border-primary pl-6 pr-4 py-4 rounded-md shadow-md">
@@ -156,17 +156,7 @@ def generate_sine_wave(freq, intensity, duration, sample_rate):
           I use basic additive synthesis — summing sine waves — to generate the
           final <code>.wav</code> output. The full script handles reading
           spectrum files, filtering low-intensity values, normalizing, and
-          writing the final audio file —{" "}
-          {/* consider removing this link since it is already linked above */}
-          <a
-            className="link link-primary"
-            href="https://github.com/NicolasMurphy/mass-spectrum-to-audio-converter"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            view it on GitHub
-          </a>
-          .
+          writing the final audio file.
         </p>
 
         <h2 className="text-2xl font-bold mt-10">Sample Input (.txt)</h2>
