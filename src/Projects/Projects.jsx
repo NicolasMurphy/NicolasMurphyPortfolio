@@ -4,6 +4,7 @@ const projects = [
     description:
       "SongSeeker is a music education geography game! Featuring music from over 150 countries!",
     repo: "https://github.com/NicolasMurphy/songseeker-beta",
+    live: "https://songseeker.xyz",
     tags: ["TypeScript", "Game", "Music"],
   },
   {
@@ -85,6 +86,16 @@ export default function ProjectsPage() {
                 {project.blog && (
                   <a href={project.blog} className="btn btn-sm btn-info">
                     Read Blog
+                  </a>
+                )}
+                {project.live && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-sm btn-success"
+                  >
+                    Live Site
                   </a>
                 )}
                 <a
