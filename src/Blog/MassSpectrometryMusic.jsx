@@ -260,27 +260,27 @@ def generate_sine_wave(freq, intensity, duration, sample_rate):
           the included samples, or generate your own. There are about 100{" "}
           <code>.wav</code> files already available.
         </p>
-      </div>
 
-      <h2 className="text-2xl font-bold mt-10">Update (July 4, 2025)</h2>
-      <p>
-        This blog post describes the early version of my mass spectrometry music
-        tool, which originally used HMDB and a slightly different frequency
-        mapping formula. Since then, I've restructured the project with a more
-        refined backend using <strong>MassBank</strong> and added a live web
-        interface.
-      </p>
-      <p>
-        You can try the latest version here:{" "}
-        <a
-          href="https://mass-spectrum-to-audio-converter.vercel.app"
-          className="link link-primary"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          mass-spectrum-to-audio-converter.vercel.app
-        </a>
-      </p>
+        <h2 className="text-2xl font-bold mt-10">Update (July 4, 2025)</h2>
+        <p>
+          This blog post describes the early version of my mass spectrometry
+          music tool, which originally used HMDB and a slightly different
+          frequency mapping formula. Since then, I've restructured the project
+          with a more refined backend using MassBank and added a live web
+          interface.
+        </p>
+        <p>
+          You can try the latest version here:{" "}
+          <a
+            href="https://mass-spectrum-to-audio-converter.vercel.app"
+            className="link link-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            mass-spectrum-to-audio-converter.vercel.app
+          </a>
+        </p>
+      </div>
 
       <div className="text-center mt-10">
         <Link to="/blog" className="btn btn-sm mb-10">
