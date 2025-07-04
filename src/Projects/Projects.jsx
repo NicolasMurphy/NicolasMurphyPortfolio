@@ -19,6 +19,7 @@ const projects = [
     description:
       "A project for converting mass spectrum .txt files into .wav files.",
     repo: "https://github.com/NicolasMurphy/mass-spectrum-to-audio-converter",
+    live: "https://mass-spectrum-to-audio-converter.vercel.app",
     blog: "/blog/mass-spectrometry-music",
     tags: ["Python", "Audio", "Experimental"],
   },

@@ -6,9 +6,7 @@ export default function MassSpectrometryMusic() {
     <div className="max-w-3xl mx-auto px-4 md:px-0 mt-16 fade-in">
       <h1 className="text-4xl font-bold mb-4">Mass Spectrometry Music</h1>
       <p className="text-lg mb-2">Converting spectra data into sound</p>
-      <p className="text-sm text-base-content/60 mb-6">
-        Last updated: April 22, 2025
-      </p>
+      <p className="text-sm text-base-content/60 mb-6">April 18, 2025</p>
 
       <blockquote className="bg-base-200 border-l-4 border-primary pl-6 pr-4 py-4 rounded-md shadow-md">
         <p className="italic">
@@ -263,6 +261,26 @@ def generate_sine_wave(freq, intensity, duration, sample_rate):
           <code>.wav</code> files already available.
         </p>
       </div>
+
+      <h2 className="text-2xl font-bold mt-10">Update (July 4, 2025)</h2>
+      <p>
+        This blog post describes the early version of my mass spectrometry music
+        tool, which originally used HMDB and a slightly different frequency
+        mapping formula. Since then, I've restructured the project with a more
+        refined backend using <strong>MassBank</strong> and added a live web
+        interface.
+      </p>
+      <p>
+        You can try the latest version here:{" "}
+        <a
+          href="https://mass-spectrum-to-audio-converter.vercel.app"
+          className="link link-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          mass-spectrum-to-audio-converter.vercel.app
+        </a>
+      </p>
 
       <div className="text-center mt-10">
         <Link to="/blog" className="btn btn-sm mb-10">
