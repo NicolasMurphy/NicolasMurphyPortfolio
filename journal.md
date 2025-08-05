@@ -1,4 +1,14 @@
+# 8/5/25
+
+    Goals:
+        - Updated resume link
+        - Updated tags for Mass Spec Project
+        - Removed 2 less impressive projects
+    Notes:
+        -
+
 # 4/18/25
+
     Goals:
         - consider rate limiting the scraping
         - consider better error handling
@@ -8,6 +18,7 @@
         - Consider overhauling projects
 
 # 4/9/25
+
     Goals:
         - consider rate limiting the scraping
         - consider better error handling
@@ -16,6 +27,7 @@
         -
 
 # 4/8/25
+
     Goals:
         - Get the "Random Spotify Track" functioning again
         -
@@ -29,6 +41,7 @@
         -
 
 # 4/10
+
     Goals:
         - Styling for projects still needs work, perhaps use cards
         -
@@ -38,6 +51,7 @@
         -
 
 # 4/9
+
     Goals:
         -
     Notes:
@@ -45,6 +59,7 @@
         -
 
 # 3/2/24
+
     Goals:
         - Update all images to webp
         - Update DaisyUI
@@ -53,6 +68,7 @@
         -
 
 # 2/29/24
+
     Goals:
         - Update all images to webp
         -
@@ -60,6 +76,7 @@
         -
 
 # 2/28/24
+
     Goals:
         - Add glass nav
         - Added aria label for menu nav
@@ -70,6 +87,7 @@
         -
 
 # 12/24/23
+
     Goals:
         - Add transition colors for background of projects
         - Improve styling for project description
@@ -78,6 +96,7 @@
         -
 
 # 12/24/23
+
     Goals:
         - Update projects page for better styling, change background color ✓
         - For projects, move slider to left/right of description and mobile slider ✓
@@ -93,6 +112,7 @@
         -
 
 # 12/23/23
+
     Goals:
         - Update projects page to include cards, change background color
         - Remove hash router
@@ -107,6 +127,7 @@
         -
 
 # 10/30/23
+
     Goals:
         -
     Notes:
@@ -114,6 +135,7 @@
         -
 
 # 10/29/23
+
     Goals:
         - add songseeker photos, links
         - update hashrouter, public_url
@@ -123,8 +145,8 @@
         - added alt descriptions
         -
 
-
 # 10/24/23
+
     Goals:
         - Add alt descriptions for all img tags
         - Use smaller photos for faster load time

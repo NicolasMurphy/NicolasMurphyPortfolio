@@ -1,14 +1,19 @@
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
-
-  const resumeLink = "https://drive.google.com/file/d/1QFdB8-feaXymTa-nOwnfYmY909mzIeoU/view?usp=sharing";
+  const resumeLink =
+    "https://drive.google.com/file/d/1AYwD0Nhb3bbG3V0hXWHqveiOhJ3JpFB4/view?usp=sharing";
 
   return (
     <>
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" aria-label="Menu" className="btn btn-ghost lg:hidden">
+          <div
+            tabIndex={0}
+            role="button"
+            aria-label="Menu"
+            className="btn btn-ghost lg:hidden"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -38,11 +43,7 @@ const Nav = () => {
               <NavLink to={"/blog/"}>Blog</NavLink>
             </li>
             <li>
-              <a
-                href={ resumeLink }
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={resumeLink} target="_blank" rel="noreferrer">
                 Resume
               </a>
             </li>
@@ -69,11 +70,7 @@ const Nav = () => {
             <NavLink to={"/blog/"}>Blog</NavLink>
           </li>
           <li>
-            <a
-              href={ resumeLink }
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={resumeLink} target="_blank" rel="noreferrer">
               Resume
             </a>
           </li>

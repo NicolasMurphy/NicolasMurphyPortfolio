@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "Mass Spectrum to Audio Converter",
+    description:
+      "A project for converting mass spectrum .txt files into .wav files.",
+    repo: "https://github.com/NicolasMurphy/mass-spectrum-to-audio-converter",
+    live: "https://mass-spectrum-to-audio-converter.vercel.app",
+    blog: "/blog/mass-spectrometry-music",
+    tags: ["Python", "TypeScript", "PostgreSQL"],
+  },
+  {
     title: "SongSeeker",
     description:
       "SongSeeker is a music education geography game! Featuring music from over 150 countries!",
@@ -13,15 +22,6 @@ const projects = [
       "My portfolio showcasing my projects. Features a random Spotify track generator, using Spotify's API.",
     repo: "https://github.com/NicolasMurphy/NicolasMurphyPortfolio",
     tags: ["JavaScript", "Blog", "Spotify API"],
-  },
-  {
-    title: "Mass Spectrum to Audio Converter",
-    description:
-      "A project for converting mass spectrum .txt files into .wav files.",
-    repo: "https://github.com/NicolasMurphy/mass-spectrum-to-audio-converter",
-    live: "https://mass-spectrum-to-audio-converter.vercel.app",
-    blog: "/blog/mass-spectrometry-music",
-    tags: ["Python", "Audio", "Experimental"],
   },
   {
     title: "BookBounty",
@@ -43,19 +43,6 @@ const projects = [
       "An appointment tracker developed as a learning experience for PHP. Uses PHP, MySQL, TypeScript, and Docker.",
     repo: "https://github.com/NicolasMurphy/appointment_tracker",
     tags: ["PHP", "MySQL", "TypeScript"],
-  },
-  {
-    title: "My First Plugin",
-    description: "JUCE-powered comb filter inspired by Reason's Thor.",
-    repo: "https://github.com/NicolasMurphy/MyFirstPlugin",
-    tags: ["C++", "Audio", "VST"],
-  },
-  {
-    title: "Music Visualizer",
-    description:
-      "A audio reactive music visualizer utilizing Three.js, utilizes microphone input.",
-    repo: "https://github.com/NicolasMurphy/Music-Visualizer",
-    tags: ["TypeScript", "Three.js", "Audio"],
   },
 ];
 
