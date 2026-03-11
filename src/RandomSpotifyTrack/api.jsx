@@ -26,7 +26,7 @@ export const getRandomTrack = async (
 
     while (!randomTrack || !previewUrl) {
       const searchTerm = await fetch(
-        "https://random-word-api.vercel.app/api?words=1"
+        "https://random-word-api.herokuapp.com/word"
       )
         .then((response) => response.json())
         .then((data) => data[0]);
