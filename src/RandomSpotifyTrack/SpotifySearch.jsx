@@ -6,16 +6,14 @@ const SpotifySearch = () => {
   const [track, setTrack] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const audioRef = useRef(null);
-  const hasInteracted = useRef(false);
+
+  useEffect(() => {
+    getRandomTrack(setTrack, setIsLoading);
+  }, []);
 
   useEffect(() => {
     if (track && audioRef.current) {
       audioRef.current.load();
-      if (hasInteracted.current) {
-        audioRef.current.oncanplay = () => {
-          audioRef.current?.play();
-        };
-      }
     }
   }, [track]);
 
@@ -23,20 +21,12 @@ const SpotifySearch = () => {
     <div className="text-center lg:pt-[2%] pt-[5%]">
       <button
         className="btn btn-accent rounded-full mb-6"
-        onClick={() => {
-          hasInteracted.current = true;
-          getRandomTrack(setTrack, setIsLoading);
-        }}
+        onClick={() => getRandomTrack(setTrack, setIsLoading)}
       >
         Get Random Track
       </button>
 
-      {isLoading && (
-        <>
-          <br />
-          <div className="loading loading-ring loading-lg"></div>
-        </>
-      )}
+      {isLoading && <><br /><div className="loading loading-ring loading-lg"></div></>}
 
       {!isLoading && track && (
         <div>
