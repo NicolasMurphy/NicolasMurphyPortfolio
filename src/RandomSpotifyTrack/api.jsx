@@ -13,70 +13,28 @@ export const refreshAccessToken = async (setAccessToken) => {
   }
 };
 
-export const getRandomTrack = async (
-  accessToken,
-  setTrack,
-  setIsLoading,
-  resetAudio
-) => {
+export const getRandomTrack = async (setTrack, setIsLoading) => {
   try {
     setIsLoading(true);
-    let randomTrack = null;
-    let previewUrl = null;
+    let track = null;
 
-    while (!randomTrack || !previewUrl) {
-      const searchTerm = await fetch(
-        "https://random-word-api.vercel.app/api?words=1"
-      )
-        .then((response) => response.json())
-        .then((data) => data[0]);
+    while (!track) {
+      const wordRes = await fetch("https://random-word-api.herokuapp.com/word");
+      const wordData = await wordRes.json();
+      const searchTerm = wordData[0];
 
-      const response = await fetch(
-        `https://api.spotify.com/v1/search?q=${encodeURIComponent(
-          searchTerm
-        )}&type=track&limit=1`,
-        {
-          headers: {
-            Authorization: `Bearer ${accessToken}`,
-          },
-        }
+      const res = await fetch(
+        `/api/getDeezerTrack?q=${encodeURIComponent(searchTerm)}`,
       );
+      const data = await res.json();
 
-      if (!response.ok) {
-        console.error("Spotify API error:", response.status);
-        setIsLoading(false);
-        return;
-      }
-
-      const data = await response.json();
-      const track = data.tracks.items[0];
-
-      if (!track) continue;
-
-      const spotifyUrl = track.external_urls.spotify;
-
-      try {
-        const previewRes = await fetch(
-          `/api/getPreviewUrl?spotifyUrl=${encodeURIComponent(spotifyUrl)}`
-        );
-
-        if (previewRes.ok) {
-          const previewData = await previewRes.json();
-          previewUrl = previewData.previewUrl;
-
-          if (previewUrl) {
-            randomTrack = { ...track, preview_url: previewUrl };
-          }
-        } else {
-          console.error("Error fetching preview URL:", previewRes.status);
-        }
-      } catch (error) {
-        console.error("Error contacting preview API:", error);
+      const result = data.data?.[0];
+      if (result?.preview) {
+        track = result;
       }
     }
 
-    setTrack(randomTrack);
-    resetAudio();
+    setTrack(track);
     setIsLoading(false);
   } catch (error) {
     console.error("Error retrieving random track:", error);
