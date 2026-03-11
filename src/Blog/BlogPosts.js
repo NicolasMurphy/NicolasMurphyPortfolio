@@ -1,5 +1,5 @@
 import MassSpectrometryMusic from "./MassSpectrometryMusic";
-import WhatIsMicrotonality from "./WhatIsMicrotonality";
+// import WhatIsMicrotonality from "./WhatIsMicrotonality";
 
 export const blogPosts = [
   // {
