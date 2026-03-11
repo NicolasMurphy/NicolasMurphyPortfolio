@@ -49,7 +49,7 @@ const Nav = () => {
             </li>
             <li>
               <NavLink to={"/random-spotify-track/"}>
-                Random Deezer Track!
+                Random Spotify Track!
               </NavLink>
             </li>
           </ul>

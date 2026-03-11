@@ -53,7 +53,7 @@ function App() {
                   <ul className="menu menu-horizontal px-4">
                     <li>
                       <NavLink to={"/random-spotify-track/"}>
-                        Random Deezer Track!
+                        Random Spotify Track!
                       </NavLink>
                     </li>
                   </ul>
